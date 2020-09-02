@@ -1,0 +1,77 @@
+
+.table{
+    width: 80%;
+    margin-top:40px;
+}
+.TableRow{
+display: flex;
+align-items: center;
+justify-content:space-between;
+background-color: #f9f9f9;
+margin:10px;;
+font-weight: 300;
+width: 100%;
+font-size: 15px;
+border-radius: 14px;
+padding:0 15px; 
+height: 48px;
+}
+.TableRow > img {
+    width: 32px;
+}
+.TableRow > button{
+    border-radius: 18px;
+    padding: 0 10px;
+    border: none;
+}
+.TableRowActive > button
+{  border-radius: 18px;
+    padding: 0 10px;
+    border: none;
+
+}
+.TableRowActive{
+    display: flex;
+align-items: center;
+justify-content:space-between;
+box-shadow: 6px 6px 6px #efedfc;
+margin:10px;;
+font-weight: 400;
+font-size: 15px;
+border-radius: 14px;
+padding:0 15px; 
+width: 100%;
+height: 48px;
+border-top: #ccc 1px solid;
+}
+h4{
+    color: #c4b6c3;
+}
+.Pink{
+    background-color:#f2c4ef;
+    color:#f2c4ef;
+}
+.Red{
+    background-color: red;
+    color: red;
+}
+.Yellow{
+    background-color: Yellow;
+    color: Yellow;
+}
+.Green{
+    background-color: Green;
+    color: Green;
+}
+
+@media(max-width: 922px){
+    .table{
+        width: 100%;
+        margin-bottom: 34px;
+        
+    }
+    .TableRow{
+         width: 100%;
+         
+    }
+}

@@ -1,0 +1,16 @@
+.SideImg{
+    width: 45%;
+    height: 85%;
+    padding-top: 40px;
+    padding-left: 0;
+    margin: 0;
+}
+.HideImg{
+    display: none;
+}
+@media(max-width: 922px){
+    .SideImg{
+        display: none;
+    }
+    
+}

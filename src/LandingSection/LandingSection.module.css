@@ -1,0 +1,12 @@
+
+.LandingSection{
+    display : flex; 
+    justify-content: space-between;
+}
+@media(max-width: 922px){
+    .LandingSection{
+       width: 100%;
+       flex-direction: column;
+      
+    }
+}

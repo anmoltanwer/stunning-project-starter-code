@@ -1,0 +1,12 @@
+.HideImg{
+    Display: none;
+}
+@media(max-width: 922px){
+    .HideImg{
+        display: block;
+        width: 100%;
+        padding: 0 16px;
+       margin-top: 50px;
+        box-sizing: border-box;
+    }
+}

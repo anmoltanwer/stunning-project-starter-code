@@ -1,0 +1,49 @@
+
+.MainHead{
+      font-weight: 700;
+      font-size: 45px;
+      margin: 0 ;
+     width: 50%;
+    
+}
+.HideItem{
+    display: none;
+}
+.DescPara{
+    font-size: 15px;
+    color: grey;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top:10px;
+}
+.RightDiv{
+ padding: 20px 130px;
+}
+.UserBtn{
+    padding: 16px 28px;
+    border: none;
+    border-radius: 22px;
+    background-color: #654cd3;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    color: white; 
+}
+.FlexDiv{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.FlexDiv > img{
+    width: 45px;
+   margin-top: 12px;
+   padding: 0 22px;
+}
+@media(max-width: 922px){
+    .MainHead{
+        width: 100%;
+    }
+}
+
+
+

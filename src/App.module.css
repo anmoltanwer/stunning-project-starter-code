@@ -1,0 +1,11 @@
+
+body {
+margin: 2% 4%;
+font-family: 'Poppins', sans-serif;
+}
+@media(max-width : 922px){
+    body
+    {
+        margin: 1%;
+    }
+}

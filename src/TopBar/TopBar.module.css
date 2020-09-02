@@ -1,0 +1,51 @@
+.TopBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.LogoImg{
+width: 140px;
+}
+.MenuBar{
+    display: none;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > p{
+    padding: 0 32px;
+    color:  #ccc;
+    font-weight: 700;
+    font-size: 20px;
+}
+.AccBtn{
+    background-color: #fcd9fa;
+    color : #654CD3;
+    border: none;
+    border-radius: 22px;
+    padding: 16px 24px;;
+    font-size: 16px;
+    font-weight: 800;
+}
+.Active{
+
+border-bottom: 4px solid #654CD3;
+color: black;
+}
+
+
+@media(max-width: 922px){
+nav{
+    display: none;
+}
+.AccBtn{
+     display: none;
+}
+.MenuBar{
+    display: block;
+    padding: 0 20px;
+    font-size: 25px;
+   }
+}
